@@ -29,9 +29,16 @@ Subset experiment metrics and ablation summaries are stored in:
 - `results/metrics.csv`
 - `results/ablation_summary.csv`
 - `results/subset_run_summary.txt`
+- `results/qualitative/` qualitative slice predictions exported from notebook runs
 
 ## Figures
 ![Dice Curve](assets/dice_curve_subset.png)
 ![Loss Curve](assets/loss_curve_subset.png)
 ![Ablation Dice](assets/ablation_val_dice.png)
 ![Ablation Recall](assets/ablation_val_recall.png)
+
+## Qualitative Segmentation Examples
+The following figures provide visual comparisons of MRI slice, predicted lesion mask, and target mask.
+
+![Slice Overlay Examples](results/slice_overlay_examples.png)
+![Segmentation Grid](results/segmentation_examples_grid.png)
